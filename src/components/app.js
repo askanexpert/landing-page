@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Section from '../containers/section';
+import Footer from '../containers/footer';
 
 export default class App extends Component {
   render() {
@@ -7,7 +8,7 @@ export default class App extends Component {
       <div className="aae__container">
         <Section/>
         <Section/>
-        <Section/>
+        <Footer/>
       </div>
     );
   }
