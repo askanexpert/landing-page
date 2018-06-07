@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Section from '../containers/section';
+
+import Section from '../components/section';
+import Header from '../components/header';
 import Footer from '../containers/footer';
-import Header from '../containers/header';
 
 export default class App extends Component {
   render() {
