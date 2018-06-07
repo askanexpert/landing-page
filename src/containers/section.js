@@ -5,7 +5,6 @@ class Section extends Component {
   render() {
     return (
       <div className='aae-section__container'>
-        <img id='logo-image' src='../../resources/logo.png'/>
       </div>
     );
   }
