@@ -1,0 +1,38 @@
+body {
+  background-color: #4DADCE;
+}
+#logo-image {
+  width: 15%;
+  margin-left: 42.5%;
+}
+
+.app__container {
+  width: 100vw;
+}
+
+.aae__container {
+  width: 100%;
+}
+
+.aae-section__container {
+  width:100%;
+  height:100vh;
+  padding-top: 32px;
+}
+
+.aae-section__container:first-child {
+  height: 100vh;
+  background: linear-gradient(105deg, #4DADCE, #2c84e4)
+}
+
+@media (max-width: 1024px) {
+  #logo-image {
+    width: 192px;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo-image {
+    width: 128px;
+  }
+}
