@@ -10,7 +10,7 @@ body {
 #main-splash {
   width: 80%;
   margin-left: 10%;
-  margin-top: 64px;
+  margin-top: 50px;
 }
 
 .app__container {
@@ -21,18 +21,60 @@ body {
   width: 100%;
 }
 
-.aae-section__container {
+.aae-section__container::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+
   width:100%;
-  padding-top: 32px;
 }
 
 .aae-section__container.header {
-  height: 768px;
-
+  padding-bottom: 96px;
   background-color: #4dadce;
   background-repeat: no-repeat;
   background-image: url('images/plain-bars.png'), linear-gradient(105deg, #4DADCE, #2c84e4);
   background-size: cover;
+}
+
+.aae-section__container.header > div.title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  line-height: 1.0;
+}
+
+.aae-section__container > div.wrapper {
+  display: inline;
+  float: left;
+  width: 50%;
+  padding: 32px;
+}
+
+.aae-section__container > div.wrapper > img.feature__image {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aae-section__container > div.wrapper > div.feature__action {
+  font-family: 'Avenir', sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: white;
+  margin-top: 10%;
+}
+
+.aae-section__container > div.wrapper > div.feature__result {
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.75em;
+  font-weight: 300;
+  color: white;
 }
 
 .aae-section__container:nth-child(2n) {
@@ -115,8 +157,8 @@ body {
 
 @media (max-width: 1024px) {
   #logo-image {
-    width: 30%;
-    margin-left: 35%;
+    width: 25%;
+    margin-left: 37.5%;
   }
 }
 
