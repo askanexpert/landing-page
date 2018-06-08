@@ -1,17 +1,22 @@
 import React,{Component} from 'react';
+
+import validator from 'email-validator';
 import {signup} from '../actions/index';
 
-// import validator from 'email-validator';
-// import _ from 'lodash';
+import AaeModal from './aae_modal';
 
 class Footer extends Component {
   constructor(props) {
       super(props);
-      this.state = {email: ''};
+      this.state = {
+        email: ''
+      };
 
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
   }
+
+
 
   render() {
     if(this.props.lead.submitted) {
@@ -44,11 +49,19 @@ class Footer extends Component {
   }
 
   handleChange(event) {
-    this.setState({email: event.target.value});
+    this.setState({
+      email: event.target.value
+    });
   }
 
   handleSubmit(event) {
     event.preventDefault();
+
+    if(!validator.validate(this.state.email)) {
+      console.log('Invalid email');
+      return;
+    }
+
     this.props.signup(this.state.email);
   }
 }
