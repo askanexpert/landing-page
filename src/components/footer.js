@@ -48,8 +48,8 @@ class Footer extends Component {
       return(
         <div className='aae-section__container footer'>
           <div className='signup-form__content'>
-            <div className='title'> Thanks for submitting your response </div>
-            <div className='notice'> © Tejas Nikumbh 2018. All rights reserved </div>
+            <div className='title'> {this.props.title} </div>
+            <div className='notice'> {this.props.notice} </div>
           </div>
         </div>
       );

@@ -11,7 +11,10 @@ export default class App extends Component {
   render() {
     return (
       <div className="aae__container">
-        <Header/>
+        <Header
+          logoImage={Constants.headerData.logoImage}
+          title={Constants.headerData.title}
+          mainSplashImage={Constants.headerData.mainSplashImage}/>
         <Section
           image={Constants.sectionData[0].image}
           title={Constants.sectionData[0].title}
@@ -28,8 +31,9 @@ export default class App extends Component {
           image={Constants.sectionData[3].image}
           title={Constants.sectionData[3].title}
           description={Constants.sectionData[3].description}/>
-
-        <Footer/>
+        <Footer
+          title={Constants.footerData.title}
+          notice={Constants.footerData.notice}/>
       </div>
     );
   }

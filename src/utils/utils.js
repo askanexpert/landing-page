@@ -1,3 +1,12 @@
+export const headerData = {
+  logoImage: 'logo.png',
+  title: 'Decentralized real-time chat with experts',
+  mainSplashImage: 'main-splash.png'
+}
+export const footerData = {
+  title: 'Thanks for submitting your response',
+  notice: '© Tejas Nikumbh 2018. All rights reserved'
+}
 export const sectionData = [
   {
     image: 'mac_mock.png',
