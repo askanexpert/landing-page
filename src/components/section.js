@@ -6,11 +6,11 @@ class Section extends Component {
     return (
       <div className='aae-section__container'>
         <div className='wrapper'>
-          <img className='feature__image' src='../../style/images/mac_mock.png'/>
+          <img className='feature__image' src={`../../style/images/${this.props.image}`}/>
         </div>
         <div className='wrapper'>
-          <div className='feature__action'>Discover the best experts</div>
-          <div className='feature__result'>Choose an area of expertise. Discover numerous experts who are ready to chat and have been rated based on past performance.</div>
+          <div className='feature__action'>{this.props.title}</div>
+          <div className='feature__result'>{this.props.description}</div>
         </div>
       </div>
     );
