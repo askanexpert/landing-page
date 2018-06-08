@@ -3,22 +3,47 @@ import React,{Component} from 'react';
 import validator from 'email-validator';
 import {signup} from '../actions/index';
 
-import AaeModal from './aae_modal';
+import AaeModal from './reusable/aae_modal';
 
 class Footer extends Component {
   constructor(props) {
       super(props);
       this.state = {
-        email: ''
+        email: '',
+        modalVisibility: false
       };
 
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  showModal() {
+    this.setState({
+      email: '',
+      modalVisibility: true
+    })
+  }
 
+  hideModal() {
+    this.setState({
+      email: '',
+      modalVisibility: false
+    })
+  }
 
   render() {
+
+    if(this.state.modalVisibility) {
+      const message = `Please enter a valid email in the format username@provider.com`;
+      return(
+        <AaeModal title='Invalid Email'
+          content={message}
+          visible={this.state.modalVisibility}
+          onClickAwayFunction={this.hideModal.bind(this)}
+        />
+      );
+    }
+
     if(this.props.lead.submitted) {
       return(
         <div className='aae-section__container footer'>
@@ -58,7 +83,7 @@ class Footer extends Component {
     event.preventDefault();
 
     if(!validator.validate(this.state.email)) {
-      console.log('Invalid email');
+      this.showModal();
       return;
     }
 
