@@ -7,6 +7,12 @@ body {
   margin-left: 40%;
 }
 
+#main-splash {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 64px;
+}
+
 .app__container {
   width: 100vw;
 }
@@ -25,7 +31,7 @@ body {
 
   background-color: #4dadce;
   background-repeat: no-repeat;
-  background-image: url('images/bars.png'), linear-gradient(105deg, #4DADCE, #2c84e4);;
+  background-image: url('images/plain-bars.png'), linear-gradient(105deg, #4DADCE, #2c84e4);
   background-size: cover;
 }
 
