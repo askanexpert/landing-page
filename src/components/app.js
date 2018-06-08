@@ -10,6 +10,9 @@ export default class App extends Component {
       <div className="aae__container">
         <Header/>
         <Section/>
+        <Section/>
+        <Section/>
+        <Section/>
         <Footer/>
       </div>
     );

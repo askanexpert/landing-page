@@ -9,8 +9,8 @@ class Section extends Component {
           <img className='feature__image' src='../../style/images/mac_mock.png'/>
         </div>
         <div className='wrapper'>
-          <div className='feature__action'>Action</div>
-          <div className='feature__result'>Result</div>
+          <div className='feature__action'>Discover the best experts</div>
+          <div className='feature__result'>Choose an area of expertise. Discover numerous experts who are ready to chat and have been rated based on past performance.</div>
         </div>
       </div>
     );
