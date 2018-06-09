@@ -3,8 +3,8 @@ body {
 }
 
 #logo-image {
-  width: 20%;
-  margin-left: 40%;
+  width: 15%;
+  margin-left: 42.5%;
 }
 
 #main-splash {
@@ -28,26 +28,6 @@ body {
   clear: both;
 
   width:100%;
-}
-
-.aae-section__container.header {
-  padding-top: 32px;
-  padding-bottom: 96px;
-  background-color: #4dadce;
-  background-repeat: no-repeat;
-  background-image: url('images/plain-bars.png'), linear-gradient(105deg, #4DADCE, #2c84e4);
-  background-size: cover;
-}
-
-.aae-section__container.header > div.title {
-  font-family: 'Avenir', sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 0px;
-  line-height: 1.0;
 }
 
 .aae-section__container > div.wrapper {
@@ -98,6 +78,26 @@ body {
 
 .aae-section__container:nth-child(2n+1) {
   background-color: #509ee3;
+}
+
+.aae-section__container.header {
+  padding-top: 32px;
+  padding-bottom: 96px;
+  background-color: #3288e4;
+  background-repeat: no-repeat;
+  background-image: url('images/transparent-bars.png');
+  background-size: cover;
+}
+
+.aae-section__container.header > div.title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  line-height: 1.0;
 }
 
 .aae-section__container.footer {
