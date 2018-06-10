@@ -4,7 +4,7 @@ import Section from '../components/section';
 import Header from '../components/header';
 import Footer from '../containers/footer';
 
-import * as Constants from '../utils/utils';
+import * as Constants from '../utils/data';
 
 export default class App extends Component {
 

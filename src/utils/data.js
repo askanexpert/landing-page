@@ -1,3 +1,10 @@
+import * as Colors from './colors'
+
+export const colorData = {
+  primaryColor: Colors.CssColors.Lawngreen,
+  secondaryColor: Colors.CssColors.Azure
+}
+
 export const headerData = {
   logoImage: 'logo.png',
   title: 'Decentralized real-time chat with experts',

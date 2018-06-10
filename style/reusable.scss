@@ -1,0 +1,45 @@
+$color_1: #909090;
+$color_2: white;
+$font_family_1: 'Avenir', sans-serif;
+$background_color_1: #17a15f;
+
+.modal__container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	>p.title {
+		font-family: $font_family_1;
+		font-size: 32px;
+		margin: 8px;
+	}
+	>p.content {
+		font-family: $font_family_1;
+		font-size: 18px;
+		color: $color_1;
+		margin: 8px;
+		margin-top: 32px;
+	}
+	>div.aae-wrapper {
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		height: 50px;
+		margin: 0px;
+		&:hover {
+			opacity: 0.75;
+		}
+		>button.aae-close {
+			border: 1px solid #17a15f;
+			border-radius: 0px 0px 4px 4px;
+			background-color: $background_color_1;
+			color: $color_2;
+			opacity: 1.0;
+			font-family: $font_family_1;
+			font-size: 18px;
+			font-weight: 400;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
