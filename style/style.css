@@ -53,7 +53,7 @@
     float: right; }
 
 .aae-section__container:nth-child(2n+1) {
-  background-color: #509ee3; }
+  background-color: #61A6F0; }
 
 .aae-section__container.header {
   padding-top: 32px;
@@ -84,7 +84,8 @@
   margin-bottom: 32px; }
 
 .signup-form__content > div.notice {
-  color: #66aae3;
+  color: #fff;
+  opacity: 0.4;
   font-size: 14px;
   font-family: "Avenir next", sans-serif;
   font-weight: 400;
@@ -108,13 +109,13 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .signup-form__content > form > button.submit-button {
     border-radius: 8px;
-    border: 1px solid #FDCD18;
+    border: 1px solid #fdcd18;
     margin-top: 16px;
     margin-left: 36.25%;
     width: 27.5%;
     height: 48px;
     color: #fff;
-    background-color: #FDCD18;
+    background-color: #fdcd18;
     display: block;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     .signup-form__content > form > button.submit-button:hover {
