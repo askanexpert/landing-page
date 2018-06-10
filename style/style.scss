@@ -1,3 +1,6 @@
+$font_family_1: 'Avenir', sans-serif;
+$font_family_2: 'Avenir next', sans-serif;
+$font_family_3: 'Moderneratrial', sans-serif;
 $background_color_1: #3288e4;
 $background_color_2: #509ee3;
 
@@ -35,7 +38,7 @@ $background_color_2: #509ee3;
 			margin-right: 10%;
 		}
 		>div.feature__action {
-			font-family: 'Avenir', sans-serif;
+			font-family: $font_family_1;
 			font-size: 2.5em;
 			font-weight: 600;
 			color: white;
@@ -43,7 +46,7 @@ $background_color_2: #509ee3;
 			margin: 10%;
 		}
 		>div.feature__result {
-			font-family: 'Avenir', sans-serif;
+			font-family: $font_family_1;
 			font-size: 1.5em;
 			font-weight: 300;
 			color: white;
@@ -72,7 +75,7 @@ $background_color_2: #509ee3;
 	background-image: url('images/transparent-bars.png');
 	background-size: cover;
 	>div.title {
-		font-family: 'Avenir', sans-serif;
+		font-family: $font_family_1;
 		font-size: 50px;
 		font-weight: 700;
 		color: white;
@@ -87,7 +90,7 @@ $background_color_2: #509ee3;
 }
 .signup-form__content {
 	>div.title {
-		font-family: 'Avenir next', sans-serif;
+		font-family: $font_family_2;
 		font-size: 2.5em;
 		font-weight: 600;
 		color: white;
@@ -97,13 +100,13 @@ $background_color_2: #509ee3;
 	>div.notice {
 		color: #66aae3;
 		font-size: 14px;
-		font-family: 'Avenir next', sans-serif;
+		font-family: $font_family_2;
 		font-weight: 400;
 		text-align: center;
 		margin-top: 32px;
 	}
 	>form {
-		font-family: 'Moderneratrial', sans-serif;
+		font-family: $font_family_3;
 		font-size: 18px;
 		font-weight: 300;
 		>input.email {

@@ -30,14 +30,14 @@
     margin-left: 10%;
     margin-right: 10%; }
   .aae-section__container > div.wrapper > div.feature__action {
-    font-family: 'Avenir', sans-serif;
+    font-family: "Avenir", sans-serif;
     font-size: 2.5em;
     font-weight: 600;
     color: white;
     width: 80%;
     margin: 10%; }
   .aae-section__container > div.wrapper > div.feature__result {
-    font-family: 'Avenir', sans-serif;
+    font-family: "Avenir", sans-serif;
     font-size: 1.5em;
     font-weight: 300;
     color: white;
@@ -63,7 +63,7 @@
   background-image: url("images/transparent-bars.png");
   background-size: cover; }
   .aae-section__container.header > div.title {
-    font-family: 'Avenir', sans-serif;
+    font-family: "Avenir", sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: white;
@@ -76,7 +76,7 @@
   padding: 32px; }
 
 .signup-form__content > div.title {
-  font-family: 'Avenir next', sans-serif;
+  font-family: "Avenir next", sans-serif;
   font-size: 2.5em;
   font-weight: 600;
   color: white;
@@ -86,13 +86,13 @@
 .signup-form__content > div.notice {
   color: #66aae3;
   font-size: 14px;
-  font-family: 'Avenir next', sans-serif;
+  font-family: "Avenir next", sans-serif;
   font-weight: 400;
   text-align: center;
   margin-top: 32px; }
 
 .signup-form__content > form {
-  font-family: 'Moderneratrial', sans-serif;
+  font-family: "Moderneratrial", sans-serif;
   font-size: 18px;
   font-weight: 300; }
   .signup-form__content > form > input.email {
