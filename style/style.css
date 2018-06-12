@@ -24,18 +24,20 @@
   display: inline;
   float: left;
   width: 50%;
-  padding: 32px; }
+  padding: 32px;
+  height: 100%; }
   .aae-section__container > div.wrapper > img.feature__image {
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%; }
+    margin: 10%; }
   .aae-section__container > div.wrapper > div.feature__action {
     font-family: "Avenir", sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 600;
     color: white;
     width: 80%;
-    margin: 10%; }
+    margin-left: 10%;
+    margin-top: 5%;
+    line-height: 1.25; }
   .aae-section__container > div.wrapper > div.feature__result {
     font-family: "Avenir", sans-serif;
     font-size: 1.5em;
@@ -64,12 +66,14 @@
   background-size: cover; }
   .aae-section__container.header > div.title {
     font-family: "Avenir", sans-serif;
-    font-size: 50px;
+    font-size: 75px;
     font-weight: 700;
     color: white;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
     line-height: 1.0; }
 
 .aae-section__container.footer {
@@ -135,13 +139,12 @@
     width: 100%;
     text-align: center;
     padding: 16px; }
-    .aae-section__container > div.wrapper > div.feature__action {
-      font-size: 2.5em;
-      margin-top: 0%; }
     .aae-section__container > div.wrapper > div.feature__result {
       font-size: 1.5em;
       margin-top: 64px;
       margin-bottom: 32px; }
+  .aae-section__container.header > div.title {
+    font-size: 50px; }
   .signup-form__content > form > input.email {
     width: 40%;
     margin-left: 30%; }
@@ -155,6 +158,8 @@
     margin-left: 30%; }
   .aae-section__container > div.wrapper > div.feature__result {
     font-size: 1.25em; }
+  .aae-section__container.header > div.title {
+    font-size: 40px; }
   .signup-form__content > form > input.email {
     width: 80%;
     margin-left: 10%; }

@@ -9,27 +9,30 @@ export const footerData = {
 }
 export const sectionData = [
   {
-    image: 'mac_mock.png',
-    title: 'Discover the best experts',
-    description: `Choose an area of expertise. Discover numerous experts
-    who are ready to chat and have been rated based on past performance.`
+    image: 'expert_explorer.png',
+    title: 'Discover the best Topic Specific Experts',
+    description: `Discover numerous top notch industry leading experts based on
+    topics you choose. See relevant details, social media profiles and make
+    an informed decision.`
   },
   {
-    image: 'mac_mock.png',
-    title: 'Discover the best experts',
-    description: `Choose an area of expertise. Discover numerous experts
-    who are ready to chat and have been rated based on past performance.`
+    image: 'expert_info.png',
+    title: 'Schedule timed Chat Sessions ',
+    description: `Easy to schedule flexible chat sessions. Schedule 10 minute,
+    30 minute or 1 hour sessions based on your convenience and requirement.`
   },
   {
-    image: 'mac_mock.png',
-    title: 'Discover the best experts',
-    description: `Choose an area of expertise. Discover numerous experts
-    who are ready to chat and have been rated based on past performance.`
+    image: 'expert_chat.png',
+    title: 'Intuitive Chat Interface',
+    description: `Easy to use and intuitive chat interface that allows you to
+    chat effortlessly and focus on what's important. Gaining knowledge and
+    advice. `
   },
   {
-    image: 'mac_mock.png',
-    title: 'Discover the best experts',
-    description: `Choose an area of expertise. Discover numerous experts
-    who are ready to chat and have been rated based on past performance.`
+    image: 'expert_chat_storage.png',
+    title: 'Own your data with decentralized storage.',
+    description: `With decentralized storage, we provide you with an open data
+    graph of your interactions that you can port anywhere. You will get each
+    session transcript emailed to you as well.`
   }
 ];
