@@ -17,6 +17,6 @@ npm run start-watch
 Navigate to localhost:8080 to see template
 
 # Author  
-  - Tejas Nikumbh
+  - Tejas Nikumbh [2018]
     - Email: tejnikumbh@gmail.com
     - Skype: tjnikumbh
