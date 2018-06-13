@@ -1,6 +1,6 @@
 export const headerData = {
   logoImage: 'custom/header/logo.png',
-  title: 'Decentralized real-time chat with experts',
+  title: 'Decentralised real-time chat with experts',
   mainSplashImage: 'custom/header/main_splash.png'
 }
 export const footerData = {
