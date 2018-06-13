@@ -6,23 +6,16 @@ Deploying instructions for deploying to heroku.
 ## Initial Deployment
 ```bash
 bash scripts/create.bash <app-name> &&
-bash scripts/deploy.bash <app-name>
 ```
 
 For example
 ```bash
 bash scripts/create.bash askanexpert-landing-page &&
-bash scripts/deploy.bash askanexpert-landing-page
 ```
 
 ## Subsequent Deploys
 ```bash
-bash scripts/deploy.bash <app-name>
-```
-
-For example
-```bash
-bash scripts/deploy.bash askanexpert-landing-page
+git push heroku
 ```
 
 # Testing Instructions
