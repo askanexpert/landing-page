@@ -1,15 +1,15 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+const path = require('path');
+
+const port = process.env.PORT || 8080;
+
 const app = express();
-const port = process.env.PORT || 3000;
 
-// Express middleware to convert request body to json
-app.use(bodyParser.json());
+app.use(express.static(__dirname));
 
-// POST /leads to endpoint - Used to add a lead to the database
-app.get('/', (req, res) => {
-  res.status(200).send('Landing Page Active...')
-});
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'index.html'));
+})
 
 app.listen(port, () => {
   console.log(`Started listening on port ${port}`);
