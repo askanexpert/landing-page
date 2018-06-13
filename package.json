@@ -18,7 +18,7 @@
     "build-css": "node-sass-chokidar style/ -o style/",
     "watch-css": "npm run build-css && node-sass-chokidar style/ -o style/ --watch --recursive",
     "postinstall": "webpack -p",
-    "start": "npm run build-css"
+    "start": "npm run build-css && node src/server/server.js"
   },
   "author": "",
   "devDependencies": {
