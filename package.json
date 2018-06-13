@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "npm run build-css && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "dev-watch-without-css": "nodemon --exec npm dev",
+    "dev-watch-without-css": "nodemon --exec npm run dev",
     "dev-watch": "npm-run-all -p watch-css dev-watch-without-css",
     "test": "npm run build-css && mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test-watch-without-css": "nodemon --exec npm test",
