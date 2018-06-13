@@ -4,7 +4,7 @@
 # Instructions for use
 
   - Modify the src/utils/data.js file according to relevant data
-  - Store images in style/images/ folder
+  - Store images in style/images/mocks/ folder
   - Change colors of the template in style/style.scss
 
 # Instructions for running
