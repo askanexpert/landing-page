@@ -30,8 +30,8 @@ export const sectionData = [
   },
   {
     image: 'custom/sections/expert_chat_storage.png',
-    title: 'Own your data with decentralized storage',
-    description: `With decentralized storage, we provide you with an open data
+    title: 'Own your data with decentralised storage',
+    description: `With decentralised storage, we provide you with an open data
     graph of your interactions that you can port anywhere. You will get each
     session transcript emailed to you as well.`
   }
