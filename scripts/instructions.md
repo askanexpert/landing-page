@@ -26,7 +26,8 @@ Example:-
 http://askanexpert-landing-page.herokuapp.com
 
 ## Testing Lead Creation
-See if the signup form works by signing up inside the front-end template and if it records a response inside the backend.
+See if the signup form works by signing up inside the front-end template and if
+it records a response inside the backend.
 
 # Author
 - Tejas Nikumbh
