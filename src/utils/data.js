@@ -23,16 +23,16 @@ export const sectionData = [
   },
   {
     image: 'custom/sections/expert_chat_ui.png',
-    title: 'Intuitive Chat Interface',
-    description: `Easy to use and intuitive chat interface that allows you to
-    chat effortlessly and focus on what's important. Gaining knowledge and
-    advice.`
-  },
-  {
-    image: 'custom/sections/expert_chat_storage.png',
     title: 'Own your data with decentralised storage',
     description: `With decentralised storage, we provide you with an open data
     graph of your interactions that you can port anywhere. You will get each
     session transcript emailed to you as well.`
+  },
+  {
+    image: 'custom/sections/expert_chat_storage.png',
+    title: 'Earn money with your data',
+    description: `Earn money when third parties request access to your chat
+    session data using our Data API. Chat session data is processed before sending
+    and is available only in an anonymous way.`
   }
 ];
