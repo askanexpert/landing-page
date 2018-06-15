@@ -12,7 +12,7 @@
 Run the following script to test in debug mode
 ``` javascript
 npm install
-npm run start-watch
+npm run dev-watch
 ```
 Navigate to localhost:8080 to see template
 
