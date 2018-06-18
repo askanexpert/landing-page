@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const sslRedirect = require('heroku-ssl-redirect');
+// const sslRedirect = require('heroku-ssl-redirect');
 const port = process.env.PORT || 8080;
 
 const app = express();
