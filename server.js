@@ -5,7 +5,8 @@ const port = process.env.PORT || 8080;
 
 const app = express();
 
-app.use(sslRedirect());
+// Forces website accesses to https
+// app.use(sslRedirect());
 app.use(express.static(__dirname));
 
 app.get('*', (req, res) => {
