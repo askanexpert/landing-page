@@ -17,9 +17,9 @@ npm run dev-watch
 Navigate to localhost:8080 to see template
 
 # Optimizations
-Optimizations as per the [google optimizer tool](https://developers.google.com/speed/pagespeed/insights/?url=askanexpert.social&tab=desktop) 
+Optimizations as per the [google optimizer tool](https://developers.google.com/speed/pagespeed/insights/?url=askanexpert.social&tab=desktop)
 - [x] Compress PNG images
-- [ ] Minify CSS
+- [x] Minify CSS
 
 # Author  
   - Tejas Nikumbh [2018]
