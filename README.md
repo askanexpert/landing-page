@@ -17,9 +17,9 @@ npm run dev-watch
 Navigate to localhost:8080 to see template
 
 # Optimizations
-Some optimizations that can be done are:-
-- Compress the png images being used using online tools
-- Do other necessary optimizations as per the [google optimizer tool](https://developers.google.com/speed/pagespeed/insights/?url=askanexpert.social&tab=desktop) as you see fit
+Optimizations as per the [google optimizer tool](https://developers.google.com/speed/pagespeed/insights/?url=askanexpert.social&tab=desktop) 
+- [x] Compress PNG images
+- [ ] Minify CSS
 
 # Author  
   - Tejas Nikumbh [2018]
