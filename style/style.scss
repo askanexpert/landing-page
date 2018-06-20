@@ -1,10 +1,17 @@
 $font_family_1: 'Avenir', sans-serif;
 $font_family_2: 'Avenir next', sans-serif;
 $font_family_3: 'Moderneratrial', sans-serif;
-$background_color_dark: #3288e4;
-$background_color_light: #61A6F0;
+$linear_gradient_color_1: #e66486;
+$linear_gradient_color_2: #f09358;
+$background_color_dark: #fff;
+$background_color_light: #fff;
 $background_color_submit: #fdcd18;
-$background_color_notice: #fff;
+$background_color_header: #f09358;
+$background_color_footer: #f09358;
+$header_content_color: #fff;
+$section_content_color_action: #212121;
+$section_content_color_result: #7c7c7c;
+$notice_content_color: #fff;
 
 #logo-image {
 	width: 15%;
@@ -43,7 +50,7 @@ $background_color_notice: #fff;
 			font-family: $font_family_1;
 			font-size: 3em;
 			font-weight: 600;
-			color: white;
+			color: $section_content_color_action;
 			width: 80%;
 			margin-left: 10%;
 			margin-top: 5%;
@@ -53,7 +60,7 @@ $background_color_notice: #fff;
 			font-family: $font_family_1;
 			font-size: 1.5em;
 			font-weight: 300;
-			color: white;
+			color: $section_content_color_result;
 			width: 80%;
 			margin-left: 10%;
 			margin-right: 10%;
@@ -74,7 +81,7 @@ $background_color_notice: #fff;
 .aae-section__container.header {
 	padding-top: 32px;
 	padding-bottom: 96px;
-	background-color: $background_color_dark;
+	background-color: $background_color_header;
 	background-repeat: no-repeat;
 	background-image: url('images/template/transparent-bars.png');
 	background-size: cover;
@@ -82,7 +89,7 @@ $background_color_notice: #fff;
 		font-family: $font_family_1;
 		font-size: 75px;
 		font-weight: 700;
-		color: white;
+		color: $header_content_color;
 		text-align: center;
 		margin-top: 80px;
 		margin-left: 10%;
@@ -90,8 +97,22 @@ $background_color_notice: #fff;
 		margin-bottom: 20px;
 		line-height: 1.0;
 	}
+	>div.sub-title {
+		font-family: $font_family_1;
+		font-size: 40px;
+		font-weight: 400;
+		color: $header_content_color;
+		text-align: center;
+		margin-top: 40px;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-bottom: 20px;
+		line-height: 1.25;
+	}
 }
 .aae-section__container.footer {
+	background-color: $background_color_footer;
+	background-image: url('');
 	padding: 32px;
 }
 .signup-form__content {
@@ -104,7 +125,7 @@ $background_color_notice: #fff;
 		margin-bottom: 32px;
 	}
 	>div.notice {
-		color: $background_color_notice;
+		color: $notice_content_color;
     opacity: 0.4;
 		font-size: 14px;
 		font-family: $font_family_2;
@@ -171,7 +192,12 @@ $background_color_notice: #fff;
 	}
 	.aae-section__container.header {
 		>div.title {
-			font-size: 50px;
+			font-size: 60px;
+		}
+		>div.sub-title {
+			font-size: 32px;
+			margin-left: 12%;
+			margin-right: 12%;
 		}
 	}
 	.signup-form__content {
@@ -201,7 +227,12 @@ $background_color_notice: #fff;
 	}
 	.aae-section__container.header {
 		>div.title {
-			font-size: 40px;
+			font-size: 50px;
+		}
+		>div.sub-title {
+			font-size: 24px;
+			margin-left: 8%;
+			margin-right: 8%;
 		}
 	}
 	.signup-form__content {
