@@ -19,7 +19,7 @@ Navigate to localhost:8080 to see template
 # Optimizations
 Optimizations as per the [google optimizer tool](https://developers.google.com/speed/pagespeed/insights/?url=askanexpert.social&tab=desktop)
 - [x] Compress PNG images
-- [x] Minify CSS
+- [ ] Minify CSS
 
 # Author  
   - Tejas Nikumbh [2018]
