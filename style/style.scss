@@ -83,7 +83,11 @@ $notice_content_color: #fff;
 	padding-bottom: 96px;
 	background-color: $background_color_header;
 	background-repeat: no-repeat;
-	background-image: url('images/template/transparent-bars.png');
+	background-image: url('images/template/transparent-bars.png'),
+	linear-gradient(
+		to top right,
+		$linear_gradient_color_1,
+		$linear_gradient_color_2);
 	background-size: cover;
 	>div.title {
 		font-family: $font_family_1;
@@ -112,7 +116,11 @@ $notice_content_color: #fff;
 }
 .aae-section__container.footer {
 	background-color: $background_color_footer;
-	background-image: url('');
+	background-image: url(''),
+	linear-gradient(
+		to top right,
+		$linear_gradient_color_1,
+		$linear_gradient_color_2);
 	padding: 32px;
 }
 .signup-form__content {

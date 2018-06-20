@@ -62,7 +62,7 @@
   padding-bottom: 96px;
   background-color: #f09358;
   background-repeat: no-repeat;
-  background-image: url("images/template/transparent-bars.png");
+  background-image: url("images/template/transparent-bars.png"), linear-gradient(to top right, #e66486, #f09358);
   background-size: cover; }
   .aae-section__container.header > div.title {
     font-family: "Avenir", sans-serif;
@@ -89,7 +89,7 @@
 
 .aae-section__container.footer {
   background-color: #f09358;
-  background-image: url("");
+  background-image: url(""), linear-gradient(to top right, #e66486, #f09358);
   padding: 32px; }
 
 .signup-form__content > div.title {
