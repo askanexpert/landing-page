@@ -68,7 +68,7 @@
     font-family: "Avenir", sans-serif;
     font-size: 75px;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     margin-top: 80px;
     margin-left: 10%;
@@ -79,7 +79,7 @@
     font-family: "Avenir", sans-serif;
     font-size: 40px;
     font-weight: 400;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     margin-top: 40px;
     margin-left: 20%;
@@ -101,7 +101,7 @@
   margin-bottom: 32px; }
 
 .signup-form__content > div.notice {
-  color: #fff;
+  color: #ffffff;
   opacity: 0.4;
   font-size: 14px;
   font-family: "Avenir next", sans-serif;
