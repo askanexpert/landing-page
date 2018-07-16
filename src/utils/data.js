@@ -5,7 +5,7 @@ export const headerData = {
 }
 export const footerData = {
   title: 'Thanks for submitting your response',
-  notice: '© Tejas Nikumbh 2018. All rights reserved'
+  notice: '© Tejas Nikumbh (2018). All rights reserved'
 }
 export const sectionData = [
   {
