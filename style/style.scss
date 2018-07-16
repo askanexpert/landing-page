@@ -1,8 +1,8 @@
 $font_family_1: 'Avenir', sans-serif;
 $font_family_2: 'Avenir next', sans-serif;
 $font_family_3: 'Moderneratrial', sans-serif;
-$linear_gradient_color_1: #E07477;
-$linear_gradient_color_2: #f09358;
+$linear_gradient_color_1: #d2e161;
+$linear_gradient_color_2: #6bb182;
 $background_color_dark: #fff;
 $background_color_light: #fff;
 $background_color_submit: #fdcd18;
@@ -36,6 +36,8 @@ $notice_content_color: #ffffff;
 		clear: both;
 		width: 100%;
 	}
+	background-repeat: no-repeat;
+	background-size: contain;
 	>div.wrapper {
 		display: inline;
 		float: left;
@@ -89,6 +91,7 @@ $notice_content_color: #ffffff;
 		$linear_gradient_color_1,
 		$linear_gradient_color_2);
 	background-size: cover;
+	margin-bottom: 6%;
 	>div.title {
 		font-family: $font_family_1;
 		font-size: 75px;
@@ -114,14 +117,34 @@ $notice_content_color: #ffffff;
 		line-height: 1.25;
 	}
 }
+.aae-section__container.first {
+	background-image: url('./images/template/rect_back.svg');
+}
+.aae-section__container.second {
+	background-image: url('./images/template/trapezium_back.svg');
+	background-position: right;
+	// >div.wrapper {
+	// 	>div.feature__action {
+	// 		color: white;
+	// 	}
+	// 	>div.feature__result {
+	// 	  color: white;
+	// 	}
+	// }
+}
+.aae-section__container.third {
+	background-image: url('./images/template/pent_back.svg');
+}
+
 .aae-section__container.footer {
 	background-color: $background_color_footer;
 	background-image: url(''),
 	linear-gradient(
 		to top right,
-		$linear_gradient_color_1,
-		$linear_gradient_color_2);
+		$linear_gradient_color_2,
+		$linear_gradient_color_1);
 	padding: 32px;
+	margin-top: 6%;
 }
 .signup-form__content {
 	>div.title {

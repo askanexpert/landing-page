@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1617px" height="656px" viewBox="0 0 1617 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(0.000000, -13.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="29" width="640" height="640" rx="96"></rect>
+            <text id="ask-an-expert" font-family="Avenir-Heavy, Avenir" font-size="288" font-weight="600" line-spacing="280" fill="#FFFFFF">
+                <tspan x="734" y="288">ask an</tspan>
+                <tspan x="734" y="568">expert</tspan>
+            </text>
+            <g id="text" transform="translate(130.000000, 0.000000)" fill="#71B480">
+                <text id="a" font-family="AvenirNext-DemiBold, Avenir Next" font-size="512" font-weight="500">
+                    <tspan x="0" y="512">a</tspan>
+                </text>
+                <text id="?" font-family="AvenirNext-Bold, Avenir Next" font-size="256" font-weight="bold">
+                    <tspan x="241" y="347">?</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 class Section extends Component {
   render() {
     return (
-      <div className='aae-section__container'>
+      <div className={`aae-section__container ${this.props.sectionNum}`}>
         <div className='wrapper'>
           <img className='feature__image' src={`../../style/images/${this.props.image}`}/>
         </div>

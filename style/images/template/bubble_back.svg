@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1130px" height="1400px" viewBox="0 0 1130 1400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>red_rect</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="red_rect" transform="translate(-2875.000000, -353.000000)" fill="#FFBB58" fill-rule="nonzero">
+            <path d="M3283.88889,423 C3463.66667,286.888889 3875.06597,296.809797 4003,967.444444 C4039.5367,1158.97111 3463.66667,1103.55556 3283.88889,967.444444 C3104.11111,831.333333 3104.11111,559.111111 3283.88889,423 Z" id="Rectangle" opacity="0.604575894"></path>
+            <path d="M3011.45319,747.117289 C3263.59384,556.219702 3840.58667,570.133904 4020.01579,1510.70764 C4020.28388,1512.11299 4020.52545,1514.19799 4020.7405,1516.96263 L3912.56356,1595.19263 L3759.68544,1679.95286 C3744.90327,1682.04891 3733.75168,1683.23395 3726.23068,1683.508 C3483.03792,1692.36943 3155.9821,1620.13157 3011.45319,1510.70764 C2759.31254,1319.81005 2759.31254,938.014877 3011.45319,747.117289 Z" id="Rectangle" opacity="0.502712037" transform="translate(3421.544099, 1167.161795) rotate(-75.000000) translate(-3421.544099, -1167.161795) "></path>
+        </g>
+    </g>
+</svg>
