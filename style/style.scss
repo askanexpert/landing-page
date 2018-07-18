@@ -82,14 +82,17 @@ $notice_content_color: #ffffff;
 }
 .aae-section__container.header {
 	padding-top: 32px;
-	padding-bottom: 96px;
-	background-color: $background_color_header;
+	padding-bottom: 256px;
+	//background-color: $background_color_header;
+	//background-repeat: no-repeat;
+	// background-image: url('images/template/transparent-bars.png'),
+	// linear-gradient(
+	// 	to top right,
+	// 	$linear_gradient_color_1,
+	// 	$linear_gradient_color_2);
+	background-image: url('images/template/triangle_up_rect.svg');
 	background-repeat: no-repeat;
-	background-image: url('images/template/transparent-bars.png'),
-	linear-gradient(
-		to top right,
-		$linear_gradient_color_1,
-		$linear_gradient_color_2);
+	background-position: bottom;
 	background-size: cover;
 	margin-bottom: 6%;
 	>div.title {
@@ -103,6 +106,7 @@ $notice_content_color: #ffffff;
 		margin-right: 10%;
 		margin-bottom: 20px;
 		line-height: 1.0;
+		text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 	}
 	>div.sub-title {
 		font-family: $font_family_1;
@@ -118,10 +122,10 @@ $notice_content_color: #ffffff;
 	}
 }
 .aae-section__container.first {
-	background-image: url('./images/template/rect_back.svg');
+	//background-image: url('./images/template/rect_back.svg');
 }
 .aae-section__container.second {
-	background-image: url('./images/template/trapezium_back.svg');
+	background-image: url('./images/template/rect_back.svg');
 	background-position: right;
 	// >div.wrapper {
 	// 	>div.feature__action {
@@ -133,18 +137,20 @@ $notice_content_color: #ffffff;
 	// }
 }
 .aae-section__container.third {
-	background-image: url('./images/template/pent_back.svg');
+	// background-image: url('./images/template/triangle_back.svg');
 }
 
 .aae-section__container.footer {
-	background-color: $background_color_footer;
-	background-image: url(''),
-	linear-gradient(
-		to top right,
-		$linear_gradient_color_2,
-		$linear_gradient_color_1);
+	background-image: url('./images/template/triangle_back.svg');
+	background-size: cover;
+
+	// background-image: url(''),
+	// linear-gradient(
+	// 	to top right,
+	// 	$linear_gradient_color_2,
+	// 	$linear_gradient_color_1);
 	padding: 32px;
-	margin-top: 6%;
+	padding-top: 16%;
 }
 .signup-form__content {
 	>div.title {
@@ -154,6 +160,7 @@ $notice_content_color: #ffffff;
 		color: white;
 		text-align: center;
 		margin-bottom: 32px;
+		text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 	}
 	>div.notice {
 		color: $notice_content_color;

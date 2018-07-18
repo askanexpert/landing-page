@@ -59,10 +59,10 @@
 
 .aae-section__container.header {
   padding-top: 32px;
-  padding-bottom: 96px;
-  background-color: #f09358;
+  padding-bottom: 256px;
+  background-image: url("images/template/triangle_up_rect.svg");
   background-repeat: no-repeat;
-  background-image: url("images/template/transparent-bars.png"), linear-gradient(to top right, #d2e161, #6bb182);
+  background-position: bottom;
   background-size: cover;
   margin-bottom: 6%; }
   .aae-section__container.header > div.title {
@@ -75,7 +75,8 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20px;
-    line-height: 1.0; }
+    line-height: 1.0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
   .aae-section__container.header > div.sub-title {
     font-family: "Avenir", sans-serif;
     font-size: 40px;
@@ -88,21 +89,15 @@
     margin-bottom: 20px;
     line-height: 1.25; }
 
-.aae-section__container.first {
-  background-image: url("./images/template/rect_back.svg"); }
-
 .aae-section__container.second {
-  background-image: url("./images/template/trapezium_back.svg");
+  background-image: url("./images/template/rect_back.svg");
   background-position: right; }
 
-.aae-section__container.third {
-  background-image: url("./images/template/pent_back.svg"); }
-
 .aae-section__container.footer {
-  background-color: #f09358;
-  background-image: url(""), linear-gradient(to top right, #6bb182, #d2e161);
+  background-image: url("./images/template/triangle_back.svg");
+  background-size: cover;
   padding: 32px;
-  margin-top: 6%; }
+  padding-top: 16%; }
 
 .signup-form__content > div.title {
   font-family: "Avenir next", sans-serif;
@@ -110,7 +105,8 @@
   font-weight: 600;
   color: white;
   text-align: center;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
 
 .signup-form__content > div.notice {
   color: #ffffff;
