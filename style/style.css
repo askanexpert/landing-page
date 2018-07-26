@@ -60,7 +60,7 @@
 .aae-section__container.header {
   padding-top: 32px;
   padding-bottom: 256px;
-  background-image: url("images/template/triangle_up_rect.svg");
+  background-image: url("images/template/triangle_backv3_up.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -94,7 +94,7 @@
   background-position: right; }
 
 .aae-section__container.footer {
-  background-image: url("./images/template/triangle_back.svg");
+  background-image: url("./images/template/triangle_backv3.svg");
   background-size: cover;
   padding: 32px;
   padding-top: 16%; }
