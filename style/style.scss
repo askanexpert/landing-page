@@ -5,7 +5,7 @@ $linear_gradient_color_1: #d2e161;
 $linear_gradient_color_2: #6bb182;
 $background_color_dark: #fff;
 $background_color_light: #fff;
-$background_color_submit: #fdcd18;
+$background_color_submit: #6fb57e;
 $background_color_header: #f09358;
 $background_color_footer: #f09358;
 $header_content_color: #ffffff;
@@ -90,7 +90,7 @@ $notice_content_color: #ffffff;
 	// 	to top right,
 	// 	$linear_gradient_color_1,
 	// 	$linear_gradient_color_2);
-	background: url('images/template/triangle_backv3_up.svg');
+	background: url('images/template/trapezium_yellow.svg');
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
@@ -142,8 +142,10 @@ $notice_content_color: #ffffff;
 }
 
 .aae-section__container.footer {
-	background-image: url('./images/template/triangle_backv3.svg');
-	background-size: cover;
+	background-image: url('./images/template/footer_yellow.svg');
+	background-size: contain;
+	background-position: bottom;
+	//margin-bottom: -2px;
 
 	// background-image: url(''),
 	// linear-gradient(
@@ -177,7 +179,7 @@ $notice_content_color: #ffffff;
 		font-size: 18px;
 		font-weight: 300;
 		>input.email {
-			border-radius: 8px;
+			border-radius: 24px;
 			border: 1px solid #fff;
 			margin-left: 36.25%;
 			width: 27.5%;
@@ -186,10 +188,10 @@ $notice_content_color: #ffffff;
 			padding-right: 16px;
 			display: block;
 			text-align: center;
-			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 		}
 		>button.submit-button {
-			border-radius: 8px;
+			border-radius: 24px;
 			border: 1px solid $background_color_submit;
 			margin-top: 16px;
 			margin-left: 36.25%;
@@ -198,7 +200,7 @@ $notice_content_color: #ffffff;
 			color: #fff;
 			background-color: $background_color_submit;
 			display: block;
-			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 			&:hover {
 				opacity: 0.75;
 				cursor: pointer;

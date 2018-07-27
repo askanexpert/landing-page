@@ -10,7 +10,7 @@ export const footerData = {
 export const sectionData = [
   {
     image: 'custom/sections/users.png',
-    title: 'Discover the best Topic Specific Experts',
+    title: 'Chat with the best topic experts',
     description: `Discover numerous top notch industry leading experts based on
     topics you choose. View relevant credentials, social media profiles and past
     work to make an informed decision.`

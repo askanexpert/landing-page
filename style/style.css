@@ -60,7 +60,7 @@
 .aae-section__container.header {
   padding-top: 32px;
   padding-bottom: 256px;
-  background: url("images/template/triangle_backv3_up.svg");
+  background: url("images/template/trapezium_yellow.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -93,8 +93,9 @@
   border-bottom: 2px solid #fff; }
 
 .aae-section__container.footer {
-  background-image: url("./images/template/triangle_backv3.svg");
-  background-size: cover;
+  background-image: url("./images/template/footer_yellow.svg");
+  background-size: contain;
+  background-position: bottom;
   padding: 32px;
   padding-top: 16%; }
 
@@ -121,7 +122,7 @@
   font-size: 18px;
   font-weight: 300; }
   .signup-form__content > form > input.email {
-    border-radius: 8px;
+    border-radius: 24px;
     border: 1px solid #fff;
     margin-left: 36.25%;
     width: 27.5%;
@@ -130,18 +131,18 @@
     padding-right: 16px;
     display: block;
     text-align: center;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1); }
   .signup-form__content > form > button.submit-button {
-    border-radius: 8px;
-    border: 1px solid #fdcd18;
+    border-radius: 24px;
+    border: 1px solid #6fb57e;
     margin-top: 16px;
     margin-left: 36.25%;
     width: 27.5%;
     height: 48px;
     color: #fff;
-    background-color: #fdcd18;
+    background-color: #6fb57e;
     display: block;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1); }
     .signup-form__content > form > button.submit-button:hover {
       opacity: 0.75;
       cursor: pointer; }

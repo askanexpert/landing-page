@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="1377px" viewBox="0 0 2000 1377" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.54747351e-13,270.148573 C5.13814448e-13,111.110054 445.241099,5.88464109 594.055697,164.923161 C752.039984,333.761347 1023.67152,170.760164 1296.80273,51.7029681 C1583.38032,-73.2154685 1817.77941,32.6900938 2000,369.419655 L2000,1377.42843 L0,1377.42843 C2.33775962e-13,930.030934 3.85358412e-13,560.93765 4.54747351e-13,270.148573 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="overlayed_trapezium" transform="translate(0.000000, -1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Triangle" fill="#FDC44F" fill-rule="nonzero" transform="translate(1000.000000, 689.214213) scale(-1, -1) translate(-1000.000000, -689.214213) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
