@@ -1,7 +1,7 @@
 export const headerData = {
   logoImage: 'custom/header/logo.svg',
   title: 'Chat with the best experts in the industry',
-  mainSplashImage: 'custom/header/main_splash.png'
+  mainSplashImage: 'custom/header/main_splashv2.png'
 }
 export const footerData = {
   title: 'Thanks for submitting your response',

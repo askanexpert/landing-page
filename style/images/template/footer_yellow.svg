@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="2000px" height="760px" viewBox="0 0 2000 760" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1354px" height="731px" viewBox="0 0 1354 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
+    <title>Group 3</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <linearGradient x1="5.17734971%" y1="100%" x2="81.8590909%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FDC44F" offset="0%"></stop>
+            <stop stop-color="#FDE54F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M46.0032852,605.990104 C19.4928775,424.922333 -88.3009775,270.528331 160.545887,214.944956 C409.392751,159.361581 320.189174,41.6330559 516.235398,6.03113308 C712.281623,-29.5707897 777.019716,96.0513978 1161.67324,287.693578 C1418.10892,415.455032 1418.10892,562.91517 1161.67324,730.07399 L46.0032852,730.07399 C48.9781448,667.669879 48.9781448,626.308584 46.0032852,605.990104 Z" id="path-2"></path>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M0,129.224158 C108.81376,208.364448 229.330451,233.168057 361.550074,203.634983 C559.879508,159.335371 789.268308,46.0188287 945.515954,17.6443132 C1101.7636,-10.7302023 1240.62346,-23.5134924 1547.18997,129.224158 C1751.56764,231.049258 1902.50432,353.243857 2000,495.807956 L2000,759.612265 L0,759.612265 L0,495.807956 L0,129.224158 Z" id="Combined-Shape" fill="#FDC44F" fill-rule="nonzero"></path>
+        <g id="Group-3">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+            <path d="M89,730 C-131.9139,730 -311,550.9139 -311,330 C-311,109.0861 -131.9139,-70 89,-70 C309.9139,-70 489,109.0861 489,330 C489,550.9139 309.9139,730 89,730 Z M89,596.666667 C236.275933,596.666667 355.666667,477.275933 355.666667,330 C355.666667,182.724067 236.275933,63.3333333 89,63.3333333 C-58.2759333,63.3333333 -177.666667,182.724067 -177.666667,330 C-177.666667,477.275933 -58.2759333,596.666667 89,596.666667 Z" id="Combined-Shape" fill="#F4B73A" fill-rule="nonzero" opacity="0.503125" mask="url(#mask-3)"></path>
+        </g>
     </g>
 </svg>
