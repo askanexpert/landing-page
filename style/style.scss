@@ -90,7 +90,7 @@ $notice_content_color: #ffffff;
 	// 	to top right,
 	// 	$linear_gradient_color_1,
 	// 	$linear_gradient_color_2);
-	background-image: url('images/template/triangle_backv3_up.svg');
+	background: url('images/template/triangle_backv3_up.svg');
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
@@ -102,8 +102,8 @@ $notice_content_color: #ffffff;
 		color: $header_content_color;
 		text-align: center;
 		margin-top: 80px;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 16%;
+		margin-right: 16%;
 		margin-bottom: 20px;
 		line-height: 1.0;
 		text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
@@ -125,8 +125,9 @@ $notice_content_color: #ffffff;
 	//background-image: url('./images/template/rect_back.svg');
 }
 .aae-section__container.second {
-	background-image: url('./images/template/rect_back.svg');
-	background-position: right;
+	border-bottom: 2px solid $background_color_light;
+	//background-image: url('./images/template/rect_back.svg');
+	//background-position: right;
 	// >div.wrapper {
 	// 	>div.feature__action {
 	// 		color: white;
@@ -231,6 +232,8 @@ $notice_content_color: #ffffff;
 	.aae-section__container.header {
 		>div.title {
 			font-size: 60px;
+			margin-left: 6%;
+			margin-right: 6%;
 		}
 		>div.sub-title {
 			font-size: 32px;

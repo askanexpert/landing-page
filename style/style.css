@@ -60,7 +60,7 @@
 .aae-section__container.header {
   padding-top: 32px;
   padding-bottom: 256px;
-  background-image: url("images/template/triangle_backv3_up.svg");
+  background: url("images/template/triangle_backv3_up.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -72,8 +72,8 @@
     color: #ffffff;
     text-align: center;
     margin-top: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 16%;
+    margin-right: 16%;
     margin-bottom: 20px;
     line-height: 1.0;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); }
@@ -90,8 +90,7 @@
     line-height: 1.25; }
 
 .aae-section__container.second {
-  background-image: url("./images/template/rect_back.svg");
-  background-position: right; }
+  border-bottom: 2px solid #fff; }
 
 .aae-section__container.footer {
   background-image: url("./images/template/triangle_backv3.svg");
@@ -165,7 +164,9 @@
       margin-top: 64px;
       margin-bottom: 32px; }
   .aae-section__container.header > div.title {
-    font-size: 60px; }
+    font-size: 60px;
+    margin-left: 6%;
+    margin-right: 6%; }
   .aae-section__container.header > div.sub-title {
     font-size: 32px;
     margin-left: 12%;

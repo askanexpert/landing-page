@@ -1,6 +1,6 @@
 export const headerData = {
   logoImage: 'custom/header/logo.svg',
-  title: 'Real time chat with the best experts in the industry',
+  title: 'Chat with the best experts in the industry',
   mainSplashImage: 'custom/header/main_splash.png'
 }
 export const footerData = {
@@ -9,21 +9,22 @@ export const footerData = {
 }
 export const sectionData = [
   {
-    image: 'custom/sections/expert_explorer-min.png',
+    image: 'custom/sections/users.svg',
     title: 'Discover the best Topic Specific Experts',
     description: `Discover numerous top notch industry leading experts based on
     topics you choose. View relevant credentials, social media profiles and past
     work to make an informed decision.`
   },
   {
-    image: 'custom/sections/expert_chat_ui-min.png',
-    title: 'Seamless chat experience and Intuitive UI',
-    description: `With our platform, we provide you with a sleek UI/UX and great
-    interaction interface to ask questions and get them answered in a timely manner.`
+    image: 'custom/sections/social.svg',
+    title: 'Schedule sessions & Chat within your favorite apps',
+    description: `With our solution, we provide intelligent bot integrations with
+    popular social channels such as slack, facebook and telegram so that you can
+    easily schedule sessions and chat on your favorite social apps.`
   },
   {
     image: 'custom/sections/expert_chat_storage-min.png',
-    title: 'Pay per minute billing to maximize efficiency',
+    title: 'Give feedback, pay per minute billing to maximize efficiency',
     description: `You pay only for the time you interact. Our billing system works
     on a per-minute basis to maximize value delivery and efficiency.`
   }
