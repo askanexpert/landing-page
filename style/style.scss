@@ -138,7 +138,9 @@ $notice_content_color: #ffffff;
 	// }
 }
 .aae-section__container.third {
-	// background-image: url('./images/template/triangle_back.svg');
+	background-image: url('./images/template/circles_hollow.svg');
+	background-position:bottom;
+	background-size: contain;
 }
 
 .aae-section__container.footer {

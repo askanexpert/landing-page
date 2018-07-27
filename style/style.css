@@ -92,6 +92,11 @@
 .aae-section__container.second {
   border-bottom: 2px solid #fff; }
 
+.aae-section__container.third {
+  background-image: url("./images/template/circles_hollow.svg");
+  background-position: bottom;
+  background-size: contain; }
+
 .aae-section__container.footer {
   background-image: url("./images/template/footer_yellow.svg");
   background-size: contain;
